@@ -20,7 +20,7 @@ const Page = () => (
     <World />
     <Insights />
     <Feedback />
-    <Footer />
+      <Footer />
   </div>
 );
 
