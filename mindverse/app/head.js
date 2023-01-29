@@ -7,8 +7,6 @@ export default function Head() {
       <link rel="preconnect" href="https://stijndv.com" />
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
       <link rel="icon" href="/favicon.ico" />
-
-      
     </>
-  )
+  );
 }
