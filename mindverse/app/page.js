@@ -1,5 +1,5 @@
 import Footer from '@/components/footer';
-import Navbar from '@/components/Navber';
+import Navbar from '@/components/Navbar';
 import About from '@/sections/about';
 import Hero from '@/sections/Hero';
 import Explore from '@/sections/Explore';
