@@ -10,7 +10,7 @@ import Insights from '@/sections/Insights';
 import Feedback from '@/sections/Feedback';
 
 const Page = () => (
-  <div>
+  <div className="bg-slate-900 overflow-hidden">
     <Navbar />
     <Hero />
     <About />
@@ -20,7 +20,7 @@ const Page = () => (
     <World />
     <Insights />
     <Feedback />
-      <Footer />
+    <Footer />
   </div>
 );
 
