@@ -8,7 +8,7 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    viewport={{ once: false, amount: 0.25 }}
+    viewport={{ once: true }}
     className="sm:px-16 px-6 py-8 relative"
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
