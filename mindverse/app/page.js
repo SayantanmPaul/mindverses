@@ -1,6 +1,6 @@
 import Footer from '@/components/footer';
 import Navbar from '@/components/Navbar';
-import About from '@/sections/About';
+import About from '@/components/About';
 import Hero from '@/components/Hero';
 import Explore from '@/sections/Explore';
 import GetStarted from '@/sections/GetStarted';
@@ -13,13 +13,26 @@ const Page = () => (
   <div className="bg-slate-900 overflow-hidden">
     <Navbar />
     <Hero />
-    <About />
-    <Explore />
-    <GetStarted />
-    <WhatsNew />
+
+    <div className="relative">
+      <About />
+      <div className="gradient-03 z-0" />
+      <Explore />
+    </div>
+
+    <div className="relative">
+      <GetStarted />
+      <div className="gradient-04 z-0" />
+      <WhatsNew />
+    </div>
+
     <World />
-    <Insights />
-    <Feedback />
+    <div className="relative">
+      <Insights />
+      <div className="gradient-04  z-0" />
+      <Feedback />
+    </div>
+
     <Footer />
   </div>
 );
