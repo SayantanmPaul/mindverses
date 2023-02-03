@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 import About from '@/components/About';
 import Hero from '@/components/Hero';
 import Explore from '@/components/Explore';
-import GetStarted from '@/sections/GetStarted';
+import GetStarted from '@/components/GetStarted';
 import WhatsNew from '@/sections/WhatsNew';
 import World from '@/sections/World';
 import Insights from '@/sections/Insights';

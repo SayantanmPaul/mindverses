@@ -12,7 +12,7 @@ import World from '@/sections/World';
 const Explore = () => {
   const [active, setactive] = useState('world-2');
   return (
-    <section className={`${styles.paddings} `}>
+    <section className={`${styles.paddings} `} id="explore">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
