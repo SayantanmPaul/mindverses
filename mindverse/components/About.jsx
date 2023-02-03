@@ -19,7 +19,7 @@ const About = () => (
       <TypingText title="| About Mindverses" textStyles="text-center" />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="font-normal sm:text-[32px] md:text-[25px] text-[15px] lg:text-center text-justify tracking-normal text-slate-200 mt-10 lg:mt-16"
+        className="font-normal sm:text-[32px] md:text-[32px] text-[15px] lg:text-center text-justify tracking-normal text-slate-200 mt-10 lg:mt-16"
       >
         <span className="font-extrabold text-white">Mindverses </span>
         represents the infinite reality of the future, where users can expreience the virtual world by fealing like its

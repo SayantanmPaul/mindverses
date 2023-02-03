@@ -2,7 +2,7 @@ import Footer from '@/components/footer';
 import Navbar from '@/components/Navbar';
 import About from '@/components/About';
 import Hero from '@/components/Hero';
-import Explore from '@/sections/Explore';
+import Explore from '@/components/Explore';
 import GetStarted from '@/sections/GetStarted';
 import WhatsNew from '@/sections/WhatsNew';
 import World from '@/sections/World';
