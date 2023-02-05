@@ -6,7 +6,7 @@ import Explore from '@/components/Explore';
 import GetStarted from '@/components/GetStarted';
 import WhatsNew from '@/components/WhatsNew';
 import World from '@/components/World';
-import Insights from '@/sections/Insights';
+import Insights from '@/components/Insights';
 import Feedback from '@/sections/Feedback';
 
 const Page = () => (
