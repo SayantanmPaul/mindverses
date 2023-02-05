@@ -52,6 +52,20 @@ const World = () => (
             className="w-full h-full rounded-full shadow-xl shadow-indigo-500/50 "
           />
         </div>
+        <div className=" absolute lg:bottom-[360px] md:bottom-[280px] bottom-[180px] lg:right-[230px] md:right-32 right-[70px] lg:w-16 lg:h-16 md:w-12 md:h-12  w-8 h-8 rounded-full lg:p-[5px] p-1   glassmorphism  ">
+          <img
+            src="/people-05.jpg"
+            alt="avatar01"
+            className="w-full h-full rounded-full shadow-xl shadow-indigo-500/50 "
+          />
+        </div>
+        <div className=" absolute lg:bottom-[190px] md:bottom-[180px] bottom-[120px] lg:right-[850px] md:right-[470px] right-[260px] lg:w-16 lg:h-16 md:w-12 md:h-12  w-8 h-8 rounded-full lg:p-[5px] p-1   glassmorphism  ">
+          <img
+            src="/people-06.jpg"
+            alt="avatar01"
+            className="w-full h-full rounded-full shadow-xl shadow-indigo-500/50 "
+          />
+        </div>
       </motion.div>
     </motion.div>
   </section>
