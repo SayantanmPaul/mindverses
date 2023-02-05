@@ -1,4 +1,3 @@
-import Footer from '@/components/footer';
 import Navbar from '@/components/Navbar';
 import About from '@/components/About';
 import Hero from '@/components/Hero';
@@ -7,8 +6,7 @@ import GetStarted from '@/components/GetStarted';
 import WhatsNew from '@/components/WhatsNew';
 import World from '@/components/World';
 import Insights from '@/components/Insights';
-import Feedback from '@/sections/Feedback';
-
+import Credit from '@/components/credits';
 const Page = () => (
   <div className="bg-slate-900 overflow-hidden">
     <Navbar />
@@ -30,10 +28,8 @@ const Page = () => (
     <div className="relative">
       <Insights />
       <div className="gradient-04  z-0" />
-      <Feedback />
+      <Credit />
     </div>
-
-    <Footer />
   </div>
 );
 
