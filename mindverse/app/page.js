@@ -22,13 +22,19 @@ const Page = () => (
       <GetStarted />
       <div className="gradient-04 z-0" />
       <WhatsNew />
+      <div className="gradient-05 z-0" />
+    </div>
+    <div className="relative">
+      <div className="gradient-03 z-0" />
+      <World />
+      <div className="gradient-04 z-0" />
     </div>
 
-    <World />
     <div className="relative">
+      <div className="gradient-03 z-0" />
       <Insights />
-      <div className="gradient-04  z-0" />
       <Credit />
+      <div className="footer-gradient z-0" />
     </div>
   </div>
 );
