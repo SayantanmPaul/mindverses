@@ -36,7 +36,7 @@ export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
     title: ' New worlds',
-    subtitle: 'Theres more than 10+ differnet type of worlds you can try on and customize it',
+    subtitle: 'Theres more than 10+ different type of worlds you can try on and customize it',
   },
   {
     imgUrl: '/headset.svg',
