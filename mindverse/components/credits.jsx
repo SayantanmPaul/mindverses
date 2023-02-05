@@ -29,24 +29,40 @@ const Credit = () => (
         </div>
         <div className="flex flex-col">
           <div className=" mb-12 h-[2px] bg-white opacity-10 " />
-          <div className="flex items-center justify-between flex-wrap gap-4">
-            <h4 className="font-extrabold text-xl text-white uppercase">Mindverses</h4>
-            <p className="font-normal text-xs text-white opacity-40 ">
+          <div className="flex items-center justify-between lg:flex-row md:flex-col flex-wrap gap-4">
+            <h4 className="font-extrabold lg:text-xl md:text-xl text-lg text-white uppercase">Mindverses</h4>
+            <p className="font-normal lg:text-xs md:text-xs text-[10px] text-white opacity-40 ">
               {' '}
               Copyright © 2023 MindVerses. Crafted by Sayantan Paul with NextJs 13{' '}
             </p>
             <div className="flex gap-4">
               <a href="#">
-                <img src="/twitter.svg" alt="twitter soicals" className="object contain w-6 h-6 cursor-pointer" />
+                <img
+                  src="/twitter.svg"
+                  alt="twitter soicals"
+                  className="object contain lg:w-6 lg:h-6 md:w-6 md:h-6 w-4 h-4 cursor-pointer"
+                />
               </a>
               <a href="#">
-                <img src="/linkedin.svg" alt="twitter soicals" className="object contain w-6 h-6 cursor-pointer" />
+                <img
+                  src="/linkedin.svg"
+                  alt="twitter soicals"
+                  className="object contain lg:w-6 lg:h-6 md:w-6 md:h-6 w-4 h-4 cursor-pointer"
+                />
               </a>
               <a href="#">
-                <img src="/instagram.svg" alt="twitter soicals" className="object contain w-6 h-6 cursor-pointer" />
+                <img
+                  src="/instagram.svg"
+                  alt="twitter soicals"
+                  className="object contain lg:w-6 lg:h-6 md:w-6 md:h-6 w-4 h-4 cursor-pointer"
+                />
               </a>
               <a href="#">
-                <img src="/facebook.svg" alt="twitter soicals" className="object contain w-6 h-6 cursor-pointer" />
+                <img
+                  src="/facebook.svg"
+                  alt="twitter soicals"
+                  className="object contain lg:w-6 lg:h-6 md:w-6 md:h-6 w-4 h-4 cursor-pointer"
+                />
               </a>
             </div>
           </div>
