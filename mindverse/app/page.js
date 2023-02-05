@@ -8,7 +8,7 @@ import World from '@/components/World';
 import Insights from '@/components/Insights';
 import Credit from '@/components/credits';
 const Page = () => (
-  <div className="bg-slate-900 overflow-hidden scrollbar-track-gray-900">
+  <div className="bg-slate-900 overflow-hidden">
     <Navbar />
     <Hero />
 
