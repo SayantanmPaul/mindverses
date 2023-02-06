@@ -1,10 +1,17 @@
 'use client';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/Utils/motions';
+import Image from 'next/image';
 
 const InsightCard = ({ imgUrl, title, subtitle, index }) => (
   <motion.div variant={fadeIn('up', 'spring', index * 0.5, 1)} className="flex md:flex-row flex-col gap-4">
-    <img src={imgUrl} alt="planets" className="md:w-[270px] w-full h-[256px] rounded-2xl object-cover" />
+    <Image
+      src={imgUrl}
+      width={2000}
+      height={2200}
+      alt="planets"
+      className="md:w-[270px] w-full h-[256px] rounded-2xl object-cover"
+    />
     <div className="w-full items-center flex justify-between gap-4">
       <div className="flex-1 md:ml-16 flex flex-col max-w-2xl">
         <h4 className="  font-semibold lg:text-4xl text-lg text-white">{title}</h4>
@@ -23,7 +30,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
       </div>
 
       <div className="lg:flex hidden items-center justify-center w-20 h-20 rounded-full bg-transparent border-[1px] border-white  cursor-pointer">
-        <img src="/arrow.svg" className="w-[30%] h-[30%] object-contain " />
+        <Image src="/arrow.svg" width={20} height={20} alt="arrow-up" className="w-[30%] h-[30%] object-contain " />
       </div>
     </div>
   </motion.div>

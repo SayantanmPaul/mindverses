@@ -40,6 +40,7 @@ const Hero = () => (
           src={Cover}
           width={1080}
           height={1920}
+          alt="coverimage"
           className=" w-full sm:h-[500px] h-[360px] object-cover rounded-tl-[100px] lg:rounded-tl-[140px] rounded-bl-3xl z-10 relative -mt-8 shadow-[0_35px_100px_-15px_rgba(0,0,0,0.3)]"
         />
         <a href="#explore">
@@ -48,6 +49,7 @@ const Hero = () => (
               src={Scroldown}
               width={10000}
               height={10000}
+              alt="scrolldown"
               className="sm:w-[160px] w-[100px] sm:h-[160px] h-[100px] object-contain"
             />
           </div>

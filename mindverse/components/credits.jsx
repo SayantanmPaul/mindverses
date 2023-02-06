@@ -1,8 +1,8 @@
 'use client';
 import { motion } from 'framer-motion';
-import { socials } from '@/constants';
 import styles from '@/styles';
 import { footerVariants } from '@/Utils/motions';
+import Image from 'next/image';
 
 const Credit = () => (
   <motion.div
@@ -22,7 +22,7 @@ const Credit = () => (
           >
             <span class="  w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
             <span class=" relative flex flex-row items-center px-6 py-3 transition-all ease-out bg-gray-900 rounded-3xl group-hover:bg-opacity-0 duration-400 gap-3">
-              <img src="/headset.svg" alt="logo" />
+              <Image src="/headset.svg" width={20} height={20} alt="logo" />
               <span class="relative text-white uppercase">Join The Coummunity</span>
             </span>
           </a>
@@ -37,29 +37,37 @@ const Credit = () => (
             </p>
             <div className="flex gap-4">
               <a href="#">
-                <img
+                <Image
                   src="/twitter.svg"
+                  width={6}
+                  height={6}
                   alt="twitter soicals"
                   className="object contain lg:w-6 lg:h-6 md:w-6 md:h-6 w-4 h-4 cursor-pointer"
                 />
               </a>
               <a href="#">
-                <img
+                <Image
                   src="/linkedin.svg"
+                  width={6}
+                  height={6}
                   alt="twitter soicals"
                   className="object contain lg:w-6 lg:h-6 md:w-6 md:h-6 w-4 h-4 cursor-pointer"
                 />
               </a>
               <a href="#">
-                <img
+                <Image
                   src="/instagram.svg"
+                  width={6}
+                  height={6}
                   alt="twitter soicals"
                   className="object contain lg:w-6 lg:h-6 md:w-6 md:h-6 w-4 h-4 cursor-pointer"
                 />
               </a>
               <a href="#">
-                <img
+                <Image
                   src="/facebook.svg"
+                  width={6}
+                  height={6}
                   alt="twitter soicals"
                   className="object contain lg:w-6 lg:h-6 md:w-6 md:h-6 w-4 h-4 cursor-pointer"
                 />

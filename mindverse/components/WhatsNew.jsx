@@ -5,6 +5,7 @@ import { staggerContainer, fadeIn, planetVariants } from '@/Utils/motions';
 import { TitleText, TypingText } from './CustomTexts';
 import NewFeatures from './newFeatures';
 import { newFeatures } from '@/constants';
+import Image from 'next/image';
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} xs:mx-10 flex justify-between relative z-10`}>
@@ -28,7 +29,13 @@ const WhatsNew = () => (
       </div>
       <motion.div variants={planetVariants('right')} className=" flex items-center md:mt-4 mt-8 lg:mt-10">
         <div className={`${styles.flexCenter}`}>
-          <img src="/whats-new.png" alt="whats new" className=" w-[85%] h-[85%] object-contain" />
+          <Image
+            src="/whats-new.png"
+            width={2000}
+            height={2000}
+            alt="whats new"
+            className=" w-[85%] h-[85%] object-contain"
+          />
         </div>
       </motion.div>
     </motion.div>
