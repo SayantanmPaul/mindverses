@@ -29,7 +29,7 @@ const About = () => (
         The future is full of surprises, using the
         <span className="font-extrabold text-white"> VR </span>
         devices you can easily explore the virtual world, turn your dreams into reality.
-        <span className="font-extrabold text-white"> Let's explore </span>
+        <span className="font-extrabold text-white"> Let&apos;s explore </span>
         the Mindverses by scrolling down.
       </motion.p>
 
